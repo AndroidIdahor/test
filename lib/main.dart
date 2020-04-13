@@ -142,6 +142,7 @@ class _ExampleWidgetState extends State<ExampleWidget> {
   bool togle = false;
 
   void printScreenInformation() {
+    
     print('Device width px:${ScreenUtil.screenWidth}'); //Device width
     print('Device height px:${ScreenUtil.screenHeight}'); //Device height
     print(
